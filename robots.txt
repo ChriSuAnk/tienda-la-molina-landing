@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://chrisuank.github.io/tienda-la-molina-landing/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1

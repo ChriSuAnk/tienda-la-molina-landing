@@ -13,19 +13,19 @@
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://tiendalamolina.com/">
+    <meta property="og:url" content="https://chrisuank.github.io/tienda-la-molina-landing/">
     <meta property="og:title" content="Tienda La Molina - Más de 10 años de experiencia">
     <meta property="og:description" content="Tu tienda de confianza en La Molina. Más de 10 años ofreciendo productos de calidad y servicio excepcional.">
-    <meta property="og:image" content="https://tiendalamolina.com/images/og-image.jpg">
+    <meta property="og:image" content="https://chrisuank.github.io/tienda-la-molina-landing/src/tienda_open.jpg">
     <meta property="og:site_name" content="Tienda La Molina">
     <meta property="og:locale" content="es_PE">
     
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://tiendalamolina.com/">
+    <meta property="twitter:url" content="https://chrisuank.github.io/tienda-la-molina-landing/">
     <meta property="twitter:title" content="Tienda La Molina - Más de 10 años de experiencia">
     <meta property="twitter:description" content="Tu tienda de confianza en La Molina. Más de 10 años ofreciendo productos de calidad y servicio excepcional.">
-    <meta property="twitter:image" content="https://tiendalamolina.com/images/twitter-image.jpg">
+    <meta property="twitter:image" content="https://chrisuank.github.io/tienda-la-molina-landing/src/tienda_open.jpg">
     
     <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%232563eb'/><text y='.9em' font-size='70' fill='white'>🏪</text></svg>">
@@ -62,7 +62,7 @@
         "@type": "Store",
         "name": "Tienda La Molina",
         "description": "Tienda con más de 10 años de experiencia sirviendo a la comunidad de La Molina",
-        "url": "https://tiendalamolina.com",
+        "url": "https://chrisuank.github.io/tienda-la-molina-landing/",
         "telephone": "+51-1-234-5678",
         "email": "info@tiendalamolina.com",
         "address": {
@@ -755,6 +755,20 @@
     </div> <!-- End page-content -->
 
     <!-- Scripts -->
+    <script>
+        // Registrar Service Worker para mejor rendimiento
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function() {
+                navigator.serviceWorker.register('/sw.js')
+                .then(function(registration) {
+                    console.log('SW registered: ', registration);
+                })
+                .catch(function(registrationError) {
+                    console.log('SW registration failed: ', registrationError);
+                });
+            });
+        }
+    </script>
     <script src="script.js" defer></script>
 </body>
 </html>
