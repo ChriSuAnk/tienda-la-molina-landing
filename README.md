@@ -1,15 +1,23 @@
 # 🏪 Tienda La Molina - Landing Page Profesional
 
-Una landing page moderna y responsiva para una tienda con más de 10 años de experiencia en La Molina, Lima - Perú.
+Una landing page moderna y completamente optimizada para el rendimiento web, creada para Tienda La Molina con más de 10 años de experiencia.
 
 ## ✨ Características
 
 ### 🎨 Diseño
 - **Diseño moderno y profesional** con esquema de colores corporativo
 - **Completamente responsivo** para todos los dispositivos
-- **Animaciones suaves** y efectos de transición
+- **Animaciones optimizadas** y efectos de transición eficientes
 - **Tipografía clara** usando la fuente Inter
 - **Iconos de Font Awesome** para mejor experiencia visual
+
+### ⚡ Optimizaciones de Rendimiento
+- ✅ **CSS Crítico Inline**: CSS esencial cargado directamente en el HTML
+- ✅ **Preload de Recursos**: Carga prioritaria de imagen hero y fuentes
+- ✅ **JavaScript Diferido**: Carga no-bloqueante de scripts
+- ✅ **Service Worker**: Cache inteligente para visitas repetidas
+- ✅ **Compresión GZIP**: Reducción del tamaño de archivos (.htaccess)
+- ✅ **SEO Optimizado**: robots.txt, sitemap.xml, meta tags completos
 
 ### 📱 Secciones Principales
 1. **Hero Section** - Presentación impactante con call-to-action
